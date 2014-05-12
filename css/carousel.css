@@ -1,0 +1,231 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    color: #5a5a5a;
+}
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-wrapper .navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar-left {background:#fff;}
+.wnav {padding:0 40px 0 0px;}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    height: auto;
+
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: auto;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .col-lg-4 p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+    /* Remove the edge padding needed for mobile */
+    .marketing {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 70px;
+    }
+    .navbar-wrapper .container {
+        padding-left:  15px;
+        padding-right: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-left:  0;
+        padding-right: 0;
+    }
+
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 0px;
+    }
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        font-size: 44px;
+        line-height: 1.0;
+        font-family: "方正兰亭准黑_GBK", Arial, sans-serif;
+        text-align: left;
+    }
+    .carousel-caption p.st {
+        font-size:18px;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}
+
+
+/*search*/
+.searchform .icon-search:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 49px;
+    display: block;
+    z-index: 2;
+    font-size: 20px;
+    line-height: 49px;
+    color: #a6a6a6;
+}
+.searchform input {
+    border: 0 none;
+    float: left;
+}
+.searchform input.submit {
+    width: 31px;
+    height: 30px;
+    font-size: 0;
+    background:url("../images/search.jpg") no-repeat 0 0;
+}
+.searchform input.text {
+    width:200px;
+    height:30px;
+    text-indent:15px;
+    border:1px solid #474747;
+    font-size:12px;
+}
+
+
+.wbottom {background:#202020;padding-top:30px;color:#fff;font-family: "微软雅黑", Arial, sans-serif;}
+.wbottom dl dt {margin-right:20px;float:left;}
+.wbottom dl dd h1 {font-size:14px;font-family: "方正兰亭中黑_GBK", Arial, sans-serif;color:#fff;}
+.wbottom dd h1 strong {font-size:14px;}
+
+.wnews dl dd h1 span {font-size:20px;}
+.wnews dl dd em a {color:#fff;text-decoration: underline;}
+.wnews dl dd {font-size:11px;text-align: left;}
+
+
+.wnews2 dl dd {font-size:11px;text-align: left;color:#a9a9a9;}
+.wnews2 dl dd.newslist {background:url("../images/icon.jpg") no-repeat 110px 5px;text-indent:10px;}
+.wnews2 dl dd.newslist em {font-style: normal;}
+
+
+.wnews3 dl dd h1 {height:16px;}
+.wnews3 dl dd {font-size:11px;text-align: left;color:#a9a9a9;}
+.wnews3 dl dd.newslist {background:url("../images/icon.jpg") no-repeat 110px 5px;text-indent:10px;}
+.wnews3 dl dd.newslist em {font-style: normal;}
+
+
+.copyright {padding-top:15px;}
+
+
+
+.navbar-fixed-top {background:#202020;padding:11px 0 0 0;border-bottom:2px solid #636872;}
+/* Example One */
+#example-one{list-style:none;position:relative;padding-top:11px;}
+#example-one li{display:inline-block;}
+#example-one a{color:#bbb;font-size:14px;float:left;padding:16px 15px 0px 15px;text-decoration:none;text-transform:uppercase;font-family: "方正兰亭中黑_GBK", Arial, sans-serif;}
+#example-one a:hover{color:white}
+#magic-line{position:absolute;bottom:-40px;left:0;width:100px;height:3px;background:#b80002;}
+.current_page_item a{color:white !important}
+.ie6 #example-one li, .ie7 #example-one li{display:inline}
+.ie6 #magic-line {bottom:-3px}
+
+/* Clearfix */
+.group:after{visibility:hidden;display:block;content:"";clear:both;height:0}
+*:first-child+html .group{zoom:1} /* IE7 */
+
+
+.mbottom {position: absolute;bottom:-1px;left:0;font-size:9px;width:100%;color:#fff;background-color: rgba(0,0,0,0.1);padding:2px 0;}
+.p_left {float:left;}
+.p_right {float:right;}
+

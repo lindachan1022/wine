@@ -2441,8 +2441,8 @@ fieldset[disabled] .btn-warning.active {
 
 .btn-danger {
   color: #ffffff;
-  background-color: #d9534f;
-  border-color: #d43f3a;
+    background-color: #b21700;
+    border-color: #9d1602;
 }
 
 .btn-danger:hover,
@@ -2451,8 +2451,8 @@ fieldset[disabled] .btn-warning.active {
 .btn-danger.active,
 .open .dropdown-toggle.btn-danger {
   color: #ffffff;
-  background-color: #d2322d;
-  border-color: #ac2925;
+    background-color: #941603;
+    border-color: #831100;
 }
 
 .btn-danger:active,
@@ -4101,7 +4101,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 20px;
 }
 
 .nav > li > a:hover,
@@ -4488,7 +4488,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-brand {
   float: left;
-  padding: 15px 15px;
+  padding:0;
   font-size: 18px;
   line-height: 20px;
 }
@@ -4576,7 +4576,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
+    padding-top: 18px;
     padding-bottom: 15px;
   }
   .navbar-nav.navbar-right:last-child {
@@ -4801,8 +4801,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
-  border-color: #080808;
+  background-color: none;
+
 }
 
 .navbar-inverse .navbar-brand {
@@ -4820,13 +4820,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+  color: #494949;
+  font-family: "方正兰亭准黑_GBK", Arial, sans-serif;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #ffffff;
-  background-color: transparent;
+  background-color: #080808;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
@@ -6006,8 +6007,8 @@ button.close {
 
 .modal-header {
   min-height: 16.428571429px;
-  padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  padding: 15px 0;
+  border-bottom: 1px dotted #cfcfcf;
 }
 
 .modal-header .close {
@@ -6015,8 +6016,11 @@ button.close {
 }
 
 .modal-title {
-  margin: 0;
-  line-height: 1.428571429;
+    margin: 0;
+    line-height: 1.428571429;
+    font-family: "微软雅黑", Arial, sans-serif;
+    color: #464646;
+    font-weight: 700;
 }
 
 .modal-body {
@@ -6025,10 +6029,10 @@ button.close {
 }
 
 .modal-footer {
-  padding: 19px 20px 20px;
-  margin-top: 15px;
-  text-align: right;
-  border-top: 1px solid #e5e5e5;
+    padding: 10px 0;
+    margin-top: 0px;
+    text-align: right;
+    border-top: 0px solid #e5e5e5;
 }
 
 .modal-footer:before,
@@ -6066,15 +6070,21 @@ button.close {
 
 @media screen and (min-width: 768px) {
   .modal-dialog {
-    width: 600px;
-    margin: 30px auto;
+    width: 550px;
+    margin: 300px auto;
   }
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+      padding: 20px 100px;
   }
 }
-
+.modal-footer p {
+    font-size: 12px;
+    color: #7b7b7b;
+    text-align: center;
+    line-height: 25px;
+}
 .tooltip {
   position: absolute;
   z-index: 1030;
@@ -6434,9 +6444,7 @@ button.close {
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right {
-  position: absolute;
-  top: 50%;
-  z-index: 5;
+
   display: inline-block;
 }
 
@@ -6502,7 +6510,7 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
+  bottom: 100px;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
