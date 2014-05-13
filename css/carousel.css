@@ -143,6 +143,7 @@ body {
         font-size: 50px;
     }
 
+
 }
 
 @media (min-width: 992px) {
@@ -224,8 +225,38 @@ body {
 .group:after{visibility:hidden;display:block;content:"";clear:both;height:0}
 *:first-child+html .group{zoom:1} /* IE7 */
 
-
+.footer {background: #dadada;font-size: 12px;line-height:1;padding-top:8px;}
 .mbottom {position: absolute;bottom:-1px;left:0;font-size:9px;width:100%;color:#fff;background-color: rgba(0,0,0,0.1);padding:2px 0;}
 .p_left {float:left;}
 .p_right {float:right;}
 
+/*about*/
+.container2 {width:1300px;margin:0 auto;}
+.ab1 {height:459px;background: url("../images/abbg1.jpg") no-repeat 0 0;position: relative;}
+.ab1 .pro1 {position: absolute;left:80px;top:25px;padding:0;margin:0;}
+.pro1 h1 {color:#b80002;font-size:24px;font-family: "方正兰亭中黑_GBK", Arial, sans-serif;line-height: 1;}
+.pro1 span {color:#464646;font-size:18px;font-family: "方正兰亭中黑_GBK", Arial, sans-serif;line-height: 2;}
+.pro1 p {color:#828282;font-size:9px;line-height: 1.2;}
+.pro1 a {color:#b21700;text-decoration: underline;font-size: 12px;cursor: pointer;}
+.pro1 a:hover {color:#ce1d03;}
+.searchshare {position: absolute;right:80px;top:60px;}
+.share {list-style: none;float: right;margin-top:20px;}
+.share li {float: left;margin-left:25px;}
+.ab2 {height:401px;background: url("../images/abbg2.jpg") no-repeat 0 0;position: relative;}
+.ab2 .brew {position: absolute;left:165px;top:130px; }
+.brew a {display:block;width:209px;height:209px;background: url("../images/brew.png") no-repeat 0 0;}
+.ab2 .bview {position: absolute;right:270px;top:15px; }
+.bview a {display:block;width:105px;height:105px;background: #ca5b24;font-size:13px;color:#fff;text-align: center;line-height:105px;text-decoration: underline;}
+.bview a:hover {background: #bd4c13;}
+.ab3 {height:432px;background: url("../images/abbg3.jpg") no-repeat 0 0;}
+.ab4 {height:333px;background: url("../images/abbg4.jpg") no-repeat 0 0;padding:0;margin:0;position: relative;margin-bottom:135px;}
+.abcontact {position: absolute;left:270px;top:110px;}
+.abcontact h1 {color:#464646;font-size:28px;font-family: "方正兰亭中黑_GBK", Arial, sans-serif;line-height: 1}
+.abcontact h1 em {font-size:20px;color:#b21700;}
+.abcontact span em {color:#464646;font-size:14px;font-weight: bold;line-height:3;}
+.abcontact p em {color:#464646;font-size:12px;line-height: 1;font-family: "方正兰亭中黑_GBK", Arial, sans-serif;}
+.abcontact p b {color:#1f1f1f;font-size: 14px;}
+.abcontact a {width:115px;height:27px;font-size:12px;line-height:27px;text-align:center;background: #464646;display: block;color:#fff;}
+.abcontact a:hover {text-decoration: none;background: #3d3d3d;}
+.taste {position: absolute;right:200px;top:130px;}
+.taste a {display:block;width:209px;height:208px;background: url("../images/taste.png") no-repeat 0 0;}
