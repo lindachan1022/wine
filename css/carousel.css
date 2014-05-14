@@ -260,3 +260,144 @@ body {
 .abcontact a:hover {text-decoration: none;background: #3d3d3d;}
 .taste {position: absolute;right:200px;top:130px;}
 .taste a {display:block;width:209px;height:208px;background: url("../images/taste.png") no-repeat 0 0;}
+
+
+
+/*news*/
+.news {margin-top:60px;margin-bottom:20px;overflow: hidden;}
+.news_left {width:30%;float:left;}
+.news-title {height:203px;background:#4c4b4b;}
+.news-title h1 {margin:0;color:#fff;line-height: 1;font-family: "方正兰亭纤黑_GBK", Arial, sans-serif;font-size:38px;padding:50px 35px;background: #202020;float:right;}
+.news-title h1 span {font-size:65px;font-family: "方正兰亭纤黑_GBK", Arial, sans-serif;}
+.news-title h1 b {font-size:38px;font-family: "方正兰亭中黑_GBK", Arial, sans-serif;}
+.news-list {background:#eeeeee;height:540px;margin-top:20px;}
+.news-list ul {padding:0;margin:0;list-style: none;width:62%;float:right;margin-right:20px;margin-top:30px;border-bottom: 1px dotted #bbbbbb;margin-bottom:20px;}
+.news-list ul li {margin-bottom:25px;text-align: right;}
+.news-list ul li a {display: block;padding:7px 8px;background:#464646;color:#fff;font-family: "方正兰亭准黑_GBK", Arial, sans-serif;}
+.news-list ul li a:hover,.news-list li.active a {background:#202020;text-decoration: none;}
+.movie {float: right;margin-right:20px;}
+.news_right {width:68%;float:right;}
+.news-head {padding:0 20px;margin-top:20px;}
+.news-head dl {padding:20px 0;margin:0;border-bottom:1px dotted #a2a2a2;overflow: hidden;}
+.news-head dl dt {float:left;width:180px;height:118px;background:#ddd;margin-right:30px;}
+.news-head dl dd {float:left;width:70%;font-size: 12px;font-family: "方正兰亭准黑_GBK";line-height: 2;}
+.news-head dl dd h1 {font-size:14px;margin:0;font-family: "方正兰亭中黑_GBK", Arial, sans-serif;font-weight: bold;padding:8px 0;border-bottom:1px solid #a2a2a2;}
+.news-head dl dd em {font-size:12px;float:right;padding:8px 0;}
+.news-head dl dd a {float:right;font-style: inherit;color:#b21700;text-decoration: underline;}
+.news-head dl dd a:hover {color:#cb1c02;}
+.news-head dl.news-listlast {border-bottom:none;}
+.pages {float:right;}
+.pages ul {padding:0;margin:0;list-style: none;font-size:12px;margin-right:10px;}
+.pages ul li {float:left;margin-right:5px;}
+.pages ul li a {color:#464646;}
+.pages ul li a:hover {text-decoration: none;color:#333;}
+.news-content {background: #eeeeee;height:762px;padding:20px 50px;}
+.news-content h1 {padding:0;margin:0;text-align:center;font-size:24px;font-family: "方正兰亭准黑_GBK";padding:15px 0;border-bottom: 1px dotted #c8c8c8;}
+.news-content em {font-size:12px;width:100%;float:right;text-align: right;padding:15px 0;}
+.news-content p {font-size:12px;font-family: "方正兰亭准黑_GBK";line-height:2.5;padding:0 30px;}
+
+
+/*product*/
+.product {padding:0;margin-top:27px;}
+.product-title h1 {color:#464646;font-size:22px;font-family: "方正兰亭中黑_GBK";line-height:0.5;}
+.product-title h1 span {color:#b21700;}
+.product-title em {color:#828282;font-size:12px;}
+.product-nav {height:220px;background:url("../images/productbanner.jpg") no-repeat 0 0;margin:15px 0 0 0;}
+.product-nav ul {list-style: none;padding:0;margin:0;}
+.product-nav ul li {float:left;font-size:28px;line-height:1.2;}
+.product-nav ul li b {font-size:48px;font-family: "方正兰亭准黑_GBK";}
+.product-nav ul li a {display:block;width:380px;float:left;overflow: hidden;text-align:center;height:220px;color:#fff;padding:60px 0;}
+.product-nav ul li a:hover {text-decoration: none;background: url("../images/proabg.png") repeat;}
+.product-nav ul li.active {background: url("../images/proabg.png") repeat;}
+.product_intro {padding:20px 90px 0 50px;background:#eee url("../images/wine.png") no-repeat 250px 210px;height:480px;}
+.product_intro h3 {color:#b21700;font-size:24px;font-family: "方正兰亭中黑_GBK";border-bottom: 1px dotted #c8c8c8;padding:10px 0;}
+.product_intro p {color:#464646;font-size:12px;line-height:2;font-family: "方正兰亭准黑_GBK";}
+
+.product_right {margin-top:20px;}
+#images {list-style: none;padding:0;margin:0;}
+#images li {float: left;width:23%;margin:7px;}
+#images a {
+    margin-right: 14px;
+}
+
+#images a img {
+    vertical-align: middle;
+    width: 100%;
+    height:100%;
+}
+
+
+#imgbox-loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../images/imgbox-spinner.gif') center center no-repeat;
+    cursor: pointer;
+    display: none;
+    z-index: 90;
+}
+
+#imgbox-loading div {
+    background: #FFF;
+    width: 100%;
+    height : 100%;
+}
+
+#imgbox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: none;
+    z-index: 80;
+}
+
+.imgbox-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFF;
+    display: none;
+    z-index: 90;
+}
+
+.imgbox-img {
+    padding: 0;
+    margin: 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.imgbox-close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    height: 30px;
+    width: 30px;
+    background: url('../images/imgbox-close.png') top left no-repeat;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.imgbox-bg-wrap {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    display: none;
+
+}
+
+/*contact*/
+.contactus {background: #dcdcdc;overflow: hidden;padding:40px 80px;font-size:12px;line-height: 2;position: relative;font-family: "方正兰亭中黑_GBK";color:#464646;margin-top:20px;}
+.map {height:605px;background:url("../images/map.jpg") no-repeat 0 0;;}
+.feedback {background-color: rgba(0,0,0,0.6);width:350px;color:#fff;padding:78px 30px;float:right;margin-right:50px;}
+.feedback h1 {font-family: "方正兰亭准黑_GBK";font-size:18px;border-bottom: 1px dotted #f1f0f0;padding:10px 0;}
+.feedback p {font-size: 12px;font-family: "方正兰亭准黑_GBK";line-height: 1.5;}
+.form-group input {margin-bottom:15px;height:40px;font-size: 12px;}
+.form-group textarea {margin-bottom:15px;font-size: 12px;}
+.form-group button {width:100%;height:40px;}
